@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipul-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700/7;display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 36);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgba(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(42, 91, 99);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 10px;
+        }
+
+        .leftSection .btm {
+            padding: 12px;
+            background: rgb(28, 18, 28);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 10px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228)
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 1 120px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(11, 26, 33);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 220px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Bipul's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a herf="/">
+                        <li>Home</li>
+                    </a>
+                    <a herf="/">
+                        <li>About</li>
+                    </a>
+                    <a herf="/">
+                        <li>Portfolio</li>
+                    </a>
+                    <a herf="/">
+                        <li>projects</li>
+                    </a>
+                    <a herf="/">
+                        <li>Contact Me</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Bipul</span>
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btm">Download Resume</button>
+                    <button class="btm">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box"></div>
+            <div class="vertical"></div>
+
+            <img class="image-top" src="Developer.png" alt="">
+            <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cupiditate vitae magni molestias
+                omnis in nostrum dolores doloremque dignissimos libero?
+                HTML Developer (2022-2025)
+            </div>
+
+            <div class="image-top" src="Developer.png"></div>
+            <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque harum tempore odio a nam, magnam
+                ipsam maxime adipisci. Provident, blanditiis!
+            </div>
+
+            <div class="vertical">
+                <img class="image-top" src="node.js.png" alt="">
+            </div>
+            <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, deserunt? Vel maxime sunt assumenda
+                placeat praesentium corporis possimus porro perspiciatis.
+            </div>
+
+            <div class="vertical">
+                <img class="image-top" src="html.png.png" alt="">
+            </div>
+            <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, deserunt? Vel maxime sunt assumenda
+                placeat praesentium corporis possimus porro perspiciatis.
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="image.jpg" alt="">
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Bipul's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Project</li>
+                    <li>portfolio</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Project</li>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                </ul>
+            </div>
+
+            <div class="footer-rights">
+                copyright &#169;bipul's portfolio.com | all rights reversed
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Full Stack Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
